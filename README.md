@@ -1,13 +1,17 @@
 
-# Image Classification using CNN
+# Thumbs-up and Thumbs-down Hand Gesture Recognition
 
-This project aims to classify images of cats and dogs using Convolutional Neural Networks (CNN). The implementation utilizes popular deep learning frameworks such as TensorFlow and Keras to train and evaluate the model.
-
+This project focuses on developing a hand gesture recognition system using OpenCV. The aim is to accurately recognize and classify thumbs-up and thumbs-down gestures. The system achieved an impressive 95% accuracy during user testing, involving over 30 participants.
 ## Description
 
-Image classification is a fundamental task in computer vision, and this project focuses on classifying images of cats and dogs. Convolutional Neural Networks (CNNs) have proven to be highly effective in image classification tasks due to their ability to extract meaningful features from images.
+Hand gesture recognition is a popular area of research in computer vision, with various applications in human-computer interaction and augmented reality. This project specifically targets the recognition of thumbs-up and thumbs-down gestures. By leveraging OpenCV, the system analyzes hand movements and shapes to classify the gestures accurately.
 
-The project uses a CNN architecture to learn and classify images of cats and dogs. It leverages transfer learning by utilizing a pre-trained model as the base model and fine-tuning it on the specific dataset.
-## Model Architecture
+## Usage
 
-The project utilizes a CNN model to classify images. The architecture consists of several convolutional layers with max pooling, followed by fully connected layers and a softmax output layer.
+1. Connect a webcam or a camera to your system.
+
+2. Run the code.
+
+3. Place your hand in front of the camera and perform thumbs-up or thumbs-down gestures.
+
+4. The system will detect and classify the gestures in real-time, displaying the recognized gesture on the screen.
